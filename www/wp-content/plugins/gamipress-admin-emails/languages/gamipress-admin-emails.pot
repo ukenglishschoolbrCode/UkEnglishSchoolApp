@@ -1,0 +1,291 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GamiPress Admin Emails\n"
+"Report-Msgid-Bugs-To: https://gamipress.com/\n"
+"POT-Creation-Date: 2020-06-17 20:47+0200\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2017-MO-DA HO:MI+ZONE\n"
+"Last-Translator: GamiPress (https://gamipress.com/)\n"
+"Language-Team: GamiPress <contact@gamipress.com>\n"
+"X-Generator: Poedit 2.3\n"
+"X-Poedit-KeywordsList: __;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;_n_noop:1,2;_nx_noop:1,2,3c;esc_attr__;esc_html__;esc_attr_e;esc_html_e;esc_attr_x:1,2c;esc_html_x:1,2c\n"
+"Language: en_US\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Basepath: ..\n"
+"X-Textdomain-Support: yes\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: libraries\n"
+
+#: gamipress-admin-emails.php:140
+#, php-format
+msgid "GamiPress - Admin Emails requires %s (%s or higher) in order to work. Please install and activate it."
+msgstr ""
+
+#: includes/admin-emails.php:21
+msgid "Active"
+msgstr ""
+
+#: includes/admin-emails.php:22
+msgid "Inactive"
+msgstr ""
+
+#: includes/admin-emails.php:37
+msgid "Reach a points balance"
+msgstr ""
+
+#: includes/admin-emails.php:38
+msgid "Unlock a specific achievement"
+msgstr ""
+
+#: includes/admin-emails.php:39
+msgid "Unlock any achievement of type"
+msgstr ""
+
+#: includes/admin-emails.php:40
+msgid "Unlock all achievements of type"
+msgstr ""
+
+#: includes/admin-emails.php:41
+msgid "Reach a specific rank"
+msgstr ""
+
+#: includes/admin.php:23 includes/admin.php:62 includes/admin.php:135
+#: includes/custom-tables.php:25 includes/custom-tables.php:31
+msgid "Admin Emails"
+msgstr ""
+
+#: includes/admin.php:65
+msgid "Roles"
+msgstr ""
+
+#: includes/admin.php:66
+msgid "Set the user roles that will receive admin email. If none role is selected, by default admin emails will be sent to administrators."
+msgstr ""
+
+#: includes/admin.php:108
+msgid "GamiPress Admin Emails"
+msgstr ""
+
+#: includes/admin.php:111
+msgid "License"
+msgstr ""
+
+#: includes/custom-tables.php:24
+msgid "Admin Email"
+msgstr ""
+
+#: includes/custom-tables/admin-emails.php:40
+#: includes/custom-tables/admin-emails.php:142
+#: includes/custom-tables/admin-emails.php:146
+msgid "Title"
+msgstr ""
+
+#: includes/custom-tables/admin-emails.php:41
+#: includes/custom-tables/admin-emails.php:238
+msgid "Status"
+msgstr ""
+
+#: includes/custom-tables/admin-emails.php:42
+#: includes/custom-tables/admin-emails.php:243
+msgid "Date"
+msgstr ""
+
+#: includes/custom-tables/admin-emails.php:149
+msgid "Enter title here"
+msgstr ""
+
+#: includes/custom-tables/admin-emails.php:161
+msgid "Email Configuration"
+msgstr ""
+
+#: includes/custom-tables/admin-emails.php:165
+msgid "Subject"
+msgstr ""
+
+#: includes/custom-tables/admin-emails.php:167
+msgid "Email subject. For a list available tags, check next field description."
+msgstr ""
+
+#: includes/custom-tables/admin-emails.php:170
+msgid "Content"
+msgstr ""
+
+#: includes/custom-tables/admin-emails.php:171
+msgid "Email content. Available tags:"
+msgstr ""
+
+#: includes/custom-tables/admin-emails.php:184
+msgid "Condition Configuration"
+msgstr ""
+
+#: includes/custom-tables/admin-emails.php:188
+msgid "Condition"
+msgstr ""
+
+#: includes/custom-tables/admin-emails.php:193
+msgid "Points"
+msgstr ""
+
+#: includes/custom-tables/admin-emails.php:197
+msgid "Achievement Type"
+msgstr ""
+
+#: includes/custom-tables/admin-emails.php:204
+msgid "Achievement"
+msgstr ""
+
+#: includes/custom-tables/admin-emails.php:209
+msgid "Select an achievement"
+msgstr ""
+
+#: includes/custom-tables/admin-emails.php:215
+msgid "Rank"
+msgstr ""
+
+#: includes/custom-tables/admin-emails.php:220
+msgid "Select a rank"
+msgstr ""
+
+#: includes/custom-tables/admin-emails.php:234
+msgid "Details"
+msgstr ""
+
+#: includes/custom-tables/admin-emails.php:244
+msgid "Enter the admin email creation date. This field is important since first email will be sent <strong>after</strong> date selected."
+msgstr ""
+
+#: includes/custom-tables/admin-emails.php:300
+msgid "Send a test email"
+msgstr ""
+
+#: includes/custom-tables/admin-emails.php:406
+msgid "Email sent successfully."
+msgstr ""
+
+#: includes/logs.php:22
+msgid "Admin Email Send"
+msgstr ""
+
+#: includes/logs.php:59
+#, php-format
+msgid "Admin email \"%s\" sent to {user}"
+msgstr ""
+
+#: includes/template-functions.php:23
+msgid "User Tags"
+msgstr ""
+
+#: includes/template-functions.php:26
+msgid "User display name."
+msgstr ""
+
+#: includes/template-functions.php:27
+msgid "User first name."
+msgstr ""
+
+#: includes/template-functions.php:28
+msgid "User last name."
+msgstr ""
+
+#: includes/template-functions.php:29
+msgid "User username."
+msgstr ""
+
+#: includes/template-functions.php:30
+msgid "User email."
+msgstr ""
+
+#: includes/template-functions.php:31
+msgid "User ID (useful for shortcodes that user ID can be passed as attribute)."
+msgstr ""
+
+#: includes/template-functions.php:35
+msgid "Points Types Tags"
+msgstr ""
+
+#: includes/template-functions.php:39
+#, php-format
+msgid "User %s balance."
+msgstr ""
+
+#: includes/template-functions.php:40
+#, php-format
+msgid "%s label. Singular or plural is based on user balance."
+msgstr ""
+
+#: includes/template-functions.php:45
+msgid "Achievement Types Tags"
+msgstr ""
+
+#: includes/template-functions.php:50
+#, php-format
+msgid "ID of last %s ID user has earned."
+msgstr ""
+
+#: includes/template-functions.php:51
+#, php-format
+msgid "Title of last %s user has earned."
+msgstr ""
+
+#: includes/template-functions.php:52
+#, php-format
+msgid "URL to the last %s user has earned."
+msgstr ""
+
+#: includes/template-functions.php:53
+#, php-format
+msgid "Link to the last %s user has earned with the title as text."
+msgstr ""
+
+#: includes/template-functions.php:54
+#, php-format
+msgid "Excerpt of last %s user has earned."
+msgstr ""
+
+#: includes/template-functions.php:55
+#, php-format
+msgid "Featured image of last %s user has earned."
+msgstr ""
+
+#: includes/template-functions.php:56
+#, php-format
+msgid "Congratulations text of last %s user has earned."
+msgstr ""
+
+#: includes/template-functions.php:60
+msgid "Rank Types Tags"
+msgstr ""
+
+#: includes/template-functions.php:65
+#, php-format
+msgid "ID of user %s."
+msgstr ""
+
+#: includes/template-functions.php:66
+#, php-format
+msgid "Title of user %s."
+msgstr ""
+
+#: includes/template-functions.php:67
+#, php-format
+msgid "URL to the user %s."
+msgstr ""
+
+#: includes/template-functions.php:68
+#, php-format
+msgid "Link to the user %s with the title as text."
+msgstr ""
+
+#: includes/template-functions.php:69
+#, php-format
+msgid "Excerpt of user %s."
+msgstr ""
+
+#: includes/template-functions.php:70
+#, php-format
+msgid "Featured image of user %s."
+msgstr ""

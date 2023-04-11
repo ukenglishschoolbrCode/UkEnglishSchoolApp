@@ -1,0 +1,280 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GamiPress H5P Integration\n"
+"Report-Msgid-Bugs-To: https://gamipress.com/\n"
+"POT-Creation-Date: 2022-04-22 10:42+0200\n"
+"PO-Revision-Date: 2017-MO-DA HO:MI+ZONE\n"
+"Last-Translator: GamiPress (https://gamipress.com/)\n"
+"Language-Team: GamiPress <contact@gamipress.com>\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 2.4.3\n"
+"X-Poedit-KeywordsList: __;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;_n_noop:1,2;_nx_noop:1,2,3c;esc_attr__;esc_html__;esc_attr_e;esc_html_e;esc_attr_x:1,2c;esc_html_x:1,2c\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Basepath: ..\n"
+"X-Textdomain-Support: yes\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: libraries\n"
+
+#: gamipress-h5p-integration.php:136
+#, php-format
+msgid "GamiPress - H5P integration requires %s and %s in order to work. Please install and activate them."
+msgstr ""
+
+#: includes/admin.php:22
+msgid "H5P integration"
+msgstr ""
+
+#: includes/triggers.php:22
+msgid "H5P"
+msgstr ""
+
+#: includes/triggers.php:25
+msgid "Complete any interactive content"
+msgstr ""
+
+#: includes/triggers.php:26
+msgid "Complete a specific interactive content"
+msgstr ""
+
+#: includes/triggers.php:27
+msgid "Complete any interactive content of a specific type"
+msgstr ""
+
+#: includes/triggers.php:30
+msgid "Complete any interactive content at maximum score"
+msgstr ""
+
+#: includes/triggers.php:31
+msgid "Complete a specific interactive content at maximum score"
+msgstr ""
+
+#: includes/triggers.php:32
+msgid "Complete any interactive content of a specific type at maximum score"
+msgstr ""
+
+#: includes/triggers.php:35
+msgid "Complete any interactive content with a minimum score"
+msgstr ""
+
+#: includes/triggers.php:36
+msgid "Complete a specific interactive content with a minimum score"
+msgstr ""
+
+#: includes/triggers.php:37
+msgid "Complete any interactive content of a specific type with a minimum score"
+msgstr ""
+
+#: includes/triggers.php:40
+msgid "Complete any interactive content with a maximum score"
+msgstr ""
+
+#: includes/triggers.php:41
+msgid "Complete a specific interactive content with a maximum score"
+msgstr ""
+
+#: includes/triggers.php:42
+msgid "Complete any interactive content of a specific type with a maximum score"
+msgstr ""
+
+#: includes/triggers.php:45
+msgid "Complete any interactive content on a range of scores"
+msgstr ""
+
+#: includes/triggers.php:46
+msgid "Complete a specific interactive content on a range of scores"
+msgstr ""
+
+#: includes/triggers.php:47
+msgid "Complete any interactive content of a specific type on a range of scores"
+msgstr ""
+
+#: includes/triggers.php:50
+msgid "Complete any interactive content with a minimum percentage score"
+msgstr ""
+
+#: includes/triggers.php:51
+msgid "Complete a specific interactive content with a minimum percentage score"
+msgstr ""
+
+#: includes/triggers.php:52
+msgid "Complete any interactive content of a specific type with a minimum percentage score"
+msgstr ""
+
+#: includes/triggers.php:55
+msgid "Complete any interactive content with a maximum percentage score"
+msgstr ""
+
+#: includes/triggers.php:56
+msgid "Complete a specific interactive content with a maximum percentage score"
+msgstr ""
+
+#: includes/triggers.php:57
+msgid "Complete any interactive content of a specific type with a maximum percentage score"
+msgstr ""
+
+#: includes/triggers.php:60
+msgid "Complete any interactive content on a range of percentages scores"
+msgstr ""
+
+#: includes/triggers.php:61
+msgid "Complete a specific interactive content on a range of percentages scores"
+msgstr ""
+
+#: includes/triggers.php:62
+msgid "Complete any interactive content of a specific type on a range of percentages scores"
+msgstr ""
+
+#: includes/triggers.php:98
+#, php-format
+msgid "Complete a %s"
+msgstr ""
+
+#: includes/triggers.php:103
+#, php-format
+msgid "Complete a %s at maximum score"
+msgstr ""
+
+#: includes/triggers.php:108
+#, php-format
+msgid "Completed an interactive content with a score of %d or higher"
+msgstr ""
+
+#: includes/triggers.php:112
+#, php-format
+msgid "Complete %s with a score of %d or higher"
+msgstr ""
+
+#: includes/triggers.php:116
+#, php-format
+msgid "Complete a %s with a score of %d or higher"
+msgstr ""
+
+#: includes/triggers.php:121
+#, php-format
+msgid "Completed an interactive content with a score of %d or lower"
+msgstr ""
+
+#: includes/triggers.php:125
+#, php-format
+msgid "Complete %s with a score of %d or lower"
+msgstr ""
+
+#: includes/triggers.php:129
+#, php-format
+msgid "Complete a %s with a score of %d or lower"
+msgstr ""
+
+#: includes/triggers.php:134
+#, php-format
+msgid "Completed an interactive content with a score between %d and %d"
+msgstr ""
+
+#: includes/triggers.php:138
+#, php-format
+msgid "Complete %s with a score between %d and %d"
+msgstr ""
+
+#: includes/triggers.php:142
+#, php-format
+msgid "Complete a %s with a score between %d and %d"
+msgstr ""
+
+#: includes/triggers.php:147
+#, php-format
+msgid "Completed an interactive content with a percentage score of %d or higher"
+msgstr ""
+
+#: includes/triggers.php:151
+#, php-format
+msgid "Complete %s with a percentage score of %d or higher"
+msgstr ""
+
+#: includes/triggers.php:155
+#, php-format
+msgid "Complete a %s with a percentage score of %d or higher"
+msgstr ""
+
+#: includes/triggers.php:160
+#, php-format
+msgid "Completed an interactive content with a percentage score of %d or lower"
+msgstr ""
+
+#: includes/triggers.php:164
+#, php-format
+msgid "Complete %s with a percentage score of %d or lower"
+msgstr ""
+
+#: includes/triggers.php:168
+#, php-format
+msgid "Complete a %s with a percentage score of %d or lower"
+msgstr ""
+
+#: includes/triggers.php:173
+#, php-format
+msgid "Completed an interactive content with a percentage score between %d and %d"
+msgstr ""
+
+#: includes/triggers.php:177
+#, php-format
+msgid "Complete %s with a percentage score between %d and %d"
+msgstr ""
+
+#: includes/triggers.php:181
+#, php-format
+msgid "Complete a %s with a percentage score between %d and %d"
+msgstr ""
+
+#: includes/triggers.php:225
+#, php-format
+msgid "Complete %s"
+msgstr ""
+
+#: includes/triggers.php:226
+#, php-format
+msgid "Complete %s at maximum score"
+msgstr ""
+
+#: includes/triggers.php:494 includes/triggers.php:554
+msgid "Result"
+msgstr ""
+
+#: includes/triggers.php:495 includes/triggers.php:555
+msgid "Result attached to this log."
+msgstr ""
+
+#: includes/triggers.php:501 includes/triggers.php:561
+msgid "Content"
+msgstr ""
+
+#: includes/triggers.php:502 includes/triggers.php:562
+msgid "Content attached to this log."
+msgstr ""
+
+#: includes/triggers.php:520 includes/triggers.php:580
+msgid "Content Type"
+msgstr ""
+
+#: includes/triggers.php:521 includes/triggers.php:581
+msgid "Content type attached to this log."
+msgstr ""
+
+#: includes/triggers.php:588
+msgid "Score"
+msgstr ""
+
+#: includes/triggers.php:589
+msgid "Score attached to this log."
+msgstr ""
+
+#: includes/triggers.php:613
+msgid "Percentage Score"
+msgstr ""
+
+#: includes/triggers.php:614
+msgid "Percentage score attached to this log."
+msgstr ""

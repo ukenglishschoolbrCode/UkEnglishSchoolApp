@@ -1,0 +1,70 @@
+/* Progress map icon */
+.dashicons-progress-map {
+    background-image: url('../img/progress-map.svg');
+}
+
+/* Direction and alignment fields */
+.cmb2-id--gamipress-progress-map-direction li label,
+.cmb2-id--gamipress-progress-map-alignment li label {
+    display: inline-block;
+    width: 75px;
+    text-align: center;
+}
+
+
+.cmb2-id--gamipress-progress-map-direction li label:before,
+.cmb2-id--gamipress-progress-map-alignment li label:before {
+    content: "";
+    display: inline-block;
+    width: 75px;
+    height: 75px;
+
+    border: 3px solid #efefef;
+
+    background-size: 100%;
+}
+
+.cmb2-id--gamipress-progress-map-direction li input:checked + label:before,
+.cmb2-id--gamipress-progress-map-alignment li input:checked + label:before {
+    border-color: #1e8cbe;
+}
+
+.cmb2-id--gamipress-progress-map-direction li input,
+.cmb2-id--gamipress-progress-map-alignment li input {
+    display: none;
+}
+
+.cmb2-id--gamipress-progress-map-direction li label:before {
+    background-image: url('../img/icon-progress-map-vertical.svg');
+}
+
+.cmb2-id--gamipress-progress-map-direction li input[value="horizontal"] + label:before {
+    transform: rotate(90deg);
+}
+
+.cmb2-id--gamipress-progress-map-alignment li input[value="center"] + label:before {
+    background-image: url('../img/icon-progress-map-center.svg');
+}
+
+.cmb2-id--gamipress-progress-map-alignment li.horizontal input[value="center"] + label:before {
+    transform: rotate(90deg);
+}
+
+.cmb2-id--gamipress-progress-map-alignment li input[value="top"] + label:before,
+.cmb2-id--gamipress-progress-map-alignment li input[value="left"] + label:before,
+.cmb2-id--gamipress-progress-map-alignment li input[value="bottom"] + label:before,
+.cmb2-id--gamipress-progress-map-alignment li input[value="right"] + label:before {
+    background-image: url('../img/icon-progress-map-left.svg');
+}
+
+.cmb2-id--gamipress-progress-map-alignment li input[value="top"] + label:before {
+    transform: rotate(90deg);
+}
+
+.cmb2-id--gamipress-progress-map-alignment li input[value="bottom"] + label:before {
+    transform: rotate(-90deg);
+}
+
+.cmb2-id--gamipress-progress-map-alignment li input[value="right"] + label:before {
+    transform: rotate(180deg);
+}

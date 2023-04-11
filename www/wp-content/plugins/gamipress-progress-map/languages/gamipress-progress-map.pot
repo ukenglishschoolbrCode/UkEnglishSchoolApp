@@ -1,0 +1,343 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GamiPress Progress Map\n"
+"Report-Msgid-Bugs-To: https://gamipress.com/\n"
+"POT-Creation-Date: 2020-04-16 15:58+0200\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2017-MO-DA HO:MI+ZONE\n"
+"Last-Translator: GamiPress (https://gamipress.com/)\n"
+"Language-Team: GamiPress <contact@gamipress.com>\n"
+"X-Generator: Poedit 2.3\n"
+"X-Poedit-KeywordsList: __;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;_n_noop:1,2;_nx_noop:1,2,3c;esc_attr__;esc_html__;esc_attr_e;esc_html_e;esc_attr_x:1,2c;esc_html_x:1,2c\n"
+"Language: en_US\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Basepath: ..\n"
+"X-Textdomain-Support: yes\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: libraries\n"
+
+#: gamipress-progress-map.php:175
+#, php-format
+msgid "GamiPress - Progress Map requires %s (%s or higher) in order to work. Please install and activate them."
+msgstr ""
+
+#: includes/admin.php:40 includes/post-types.php:70
+msgid "Progress Maps"
+msgstr ""
+
+#: includes/admin.php:62 includes/admin.php:148 includes/admin.php:364
+#: includes/post-types.php:69 includes/shortcodes/gamipress_progress_map.php:18
+#: includes/shortcodes/gamipress_progress_map.php:29
+msgid "Progress Map"
+msgstr ""
+
+#: includes/admin.php:65
+msgid "Progress Map Post Type"
+msgstr ""
+
+#: includes/admin.php:66
+msgid "From this settings you can modify the default configuration of the progress map post type."
+msgstr ""
+
+#: includes/admin.php:70
+msgid "Slug"
+msgstr ""
+
+#: includes/admin.php:76
+msgid "Public"
+msgstr ""
+
+#: includes/admin.php:77
+msgid "Check this option if you want to allow to your visitors access to a progress map as a page. Not checking this option will make progress map just visible through shortcodes or widgets."
+msgstr ""
+
+#: includes/admin.php:82
+msgid "Supports"
+msgstr ""
+
+#: includes/admin.php:83
+msgid "Check the features you want to add to the progress map post type."
+msgstr ""
+
+#: includes/admin.php:87 includes/shortcodes/gamipress_progress_map.php:24
+msgid "Title"
+msgstr ""
+
+#: includes/admin.php:88
+msgid "Editor"
+msgstr ""
+
+#: includes/admin.php:89
+msgid "Author"
+msgstr ""
+
+#: includes/admin.php:90
+msgid "Thumbnail"
+msgstr ""
+
+#: includes/admin.php:90
+msgid "Featured Image"
+msgstr ""
+
+#: includes/admin.php:91
+msgid "Excerpt"
+msgstr ""
+
+#: includes/admin.php:92
+msgid "Trackbacks"
+msgstr ""
+
+#: includes/admin.php:93
+msgid "Custom Fields"
+msgstr ""
+
+#: includes/admin.php:94
+msgid "Comments"
+msgstr ""
+
+#: includes/admin.php:95
+msgid "Revisions"
+msgstr ""
+
+#: includes/admin.php:96
+msgid "Page Attributes"
+msgstr ""
+
+#: includes/admin.php:97
+msgid "Post Formats"
+msgstr ""
+
+#: includes/admin.php:121
+msgid "GamiPress Progress Map"
+msgstr ""
+
+#: includes/admin.php:124
+msgid "License"
+msgstr ""
+
+#: includes/admin.php:172
+msgid "Specific Achievements"
+msgstr ""
+
+#: includes/admin.php:173
+msgid "All Achievements of Type"
+msgstr ""
+
+#: includes/admin.php:184
+msgid "Specific Ranks"
+msgstr ""
+
+#: includes/admin.php:185
+msgid "All Ranks of Type"
+msgstr ""
+
+#: includes/admin.php:199
+msgid "Progress Map Data"
+msgstr ""
+
+#: includes/admin.php:203
+msgid "Type"
+msgstr ""
+
+#: includes/admin.php:204
+msgid "Choose the progress map type"
+msgstr ""
+
+#: includes/admin.php:210
+msgid "Achievements"
+msgstr ""
+
+#: includes/admin.php:211
+msgid "Choose the specific achievements to show as progress map items."
+msgstr ""
+
+#: includes/admin.php:221
+msgid "Achievement Type"
+msgstr ""
+
+#: includes/admin.php:222
+msgid "Choose the achievement type of the achievements to show as progress map items."
+msgstr ""
+
+#: includes/admin.php:227
+msgid "Ranks"
+msgstr ""
+
+#: includes/admin.php:228
+msgid "Choose the specific ranks to show as progress map items."
+msgstr ""
+
+#: includes/admin.php:238
+msgid "Rank Type"
+msgstr ""
+
+#: includes/admin.php:239
+msgid "Choose the rank type of the ranks to show as progress map items."
+msgstr ""
+
+#: includes/admin.php:290
+msgid "Progress Map Display Options"
+msgstr ""
+
+#: includes/admin.php:294
+msgid "Direction"
+msgstr ""
+
+#: includes/admin.php:298
+msgid "Vertical"
+msgstr ""
+
+#: includes/admin.php:299
+msgid "Horizontal"
+msgstr ""
+
+#: includes/admin.php:304
+msgid "Alignment"
+msgstr ""
+
+#: includes/admin.php:308
+msgid "Top"
+msgstr ""
+
+#: includes/admin.php:309
+msgid "Left"
+msgstr ""
+
+#: includes/admin.php:310
+msgid "Center"
+msgstr ""
+
+#: includes/admin.php:311
+msgid "Bottom"
+msgstr ""
+
+#: includes/admin.php:312
+msgid "Right"
+msgstr ""
+
+#: includes/admin.php:317
+msgid "Progress Bar Color"
+msgstr ""
+
+#: includes/admin.php:323
+msgid "Progress Bar Background Color"
+msgstr ""
+
+#: includes/admin.php:329
+msgid "Mark Text Color"
+msgstr ""
+
+#: includes/admin.php:335
+msgid "Mark Background Color"
+msgstr ""
+
+#: includes/admin.php:341
+msgid "Completed Mark Text Color"
+msgstr ""
+
+#: includes/admin.php:347
+msgid "Completed Mark Background Color"
+msgstr ""
+
+#: includes/admin.php:353
+msgid "Hide Upcoming Items"
+msgstr ""
+
+#: includes/admin.php:354
+msgid "Check this option to hide the text of upcoming items."
+msgstr ""
+
+#: includes/admin.php:379
+msgid "Achievement"
+msgstr ""
+
+#: includes/admin.php:384
+msgid "Rank"
+msgstr ""
+
+#: includes/admin.php:394
+msgid "Progress Map Shortcode"
+msgstr ""
+
+#: includes/admin.php:398
+msgid "Place this shortcode anywhere to display this progress map."
+msgstr ""
+
+#: includes/post-types.php:32
+msgid "Add New"
+msgstr ""
+
+#: includes/post-types.php:33
+#, php-format
+msgid "Add New %s"
+msgstr ""
+
+#: includes/post-types.php:34
+#, php-format
+msgid "Edit %s"
+msgstr ""
+
+#: includes/post-types.php:35
+#, php-format
+msgid "New %s"
+msgstr ""
+
+#: includes/post-types.php:37
+#, php-format
+msgid "View %s"
+msgstr ""
+
+#: includes/post-types.php:38
+#, php-format
+msgid "Search %s"
+msgstr ""
+
+#: includes/post-types.php:39
+#, php-format
+msgid "No %s found"
+msgstr ""
+
+#: includes/post-types.php:40
+#, php-format
+msgid "No %s found in Trash"
+msgstr ""
+
+#: includes/shortcodes/gamipress_progress_map.php:19
+msgid "Render the desired progress map."
+msgstr ""
+
+#: includes/shortcodes/gamipress_progress_map.php:30
+msgid "Choose the progress map to display."
+msgstr ""
+
+#: includes/shortcodes/gamipress_progress_map.php:35
+msgid "Select a Progress Map"
+msgstr ""
+
+#: includes/shortcodes/gamipress_progress_map.php:41
+msgid "Show Excerpt"
+msgstr ""
+
+#: includes/shortcodes/gamipress_progress_map.php:42
+msgid "Display the progress map short description."
+msgstr ""
+
+#: includes/shortcodes/gamipress_progress_map.php:48
+msgid "User ID"
+msgstr ""
+
+#: includes/shortcodes/gamipress_progress_map.php:49
+msgid "Show progress map of a specific user, leave blank to progress map of current logged in user."
+msgstr ""
+
+#: includes/widgets/progress-map-widget.php:23
+msgid "GamiPress: Progress Map"
+msgstr ""
+
+#: includes/widgets/progress-map-widget.php:24
+msgid "Render a desired progress map."
+msgstr ""

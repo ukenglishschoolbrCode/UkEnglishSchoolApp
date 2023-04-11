@@ -1,0 +1,249 @@
+/* ---------------------------------
+    COMMON
+   --------------------------------- */
+
+.gamipress-progress-map-render {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/* Progress map bars */
+.gamipress-progress-map-bar,
+.gamipress-progress-map-completed-bar {
+    content: '';
+    position: absolute;
+}
+
+.gamipress-progress-map-completed-bar {
+    z-index: 1;
+}
+
+/* Progress map items */
+.gamipress-progress-map-item {
+    position: relative;
+    z-index: 2;
+}
+
+/* Progress map items achievement */
+.gamipress-progress-map-item .gamipress-achievement {
+    position: relative;
+    padding: 1rem;
+}
+
+/* Progress map items mark */
+.gamipress-progress-map-item .gamipress-progress-map-mark {
+    position: absolute;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 40px;
+    height: 40px;
+
+    border-radius: 50%;
+    z-index: 3;
+}
+
+/* ---------------------------------
+    HORIZONTAL
+   --------------------------------- */
+
+.gamipress-progress-map-horizontal {
+    position: relative;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 1rem;
+
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+
+.gamipress-progress-map-horizontal.dragscroll {
+    cursor: move;
+}
+
+.gamipress-progress-map-horizontal.gamipress-progress-map-center {
+    white-space: nowrap;
+}
+
+/* Progress map bars */
+.gamipress-progress-map-horizontal .gamipress-progress-map-bar,
+.gamipress-progress-map-horizontal .gamipress-progress-map-completed-bar {
+    width: 100%;
+    height: 6px;
+    left: 0;
+    right: 0;
+}
+
+/* Progress map bars position */
+.gamipress-progress-map-horizontal.gamipress-progress-map-top .gamipress-progress-map-bar,
+.gamipress-progress-map-horizontal.gamipress-progress-map-top .gamipress-progress-map-completed-bar  {
+    top: 2rem;
+}
+
+.gamipress-progress-map-horizontal.gamipress-progress-map-center .gamipress-progress-map-bar,
+.gamipress-progress-map-horizontal.gamipress-progress-map-center .gamipress-progress-map-completed-bar  {
+    margin-top: -3px;
+}
+
+.gamipress-progress-map-horizontal.gamipress-progress-map-bottom .gamipress-progress-map-bar,
+.gamipress-progress-map-horizontal.gamipress-progress-map-bottom .gamipress-progress-map-completed-bar  {
+    bottom: 2rem;
+}
+
+/* Progress map items */
+.gamipress-progress-map-horizontal .gamipress-progress-map-item {
+    min-width: 300px;
+    display: flex;
+}
+
+/* Progress map items position */
+.gamipress-progress-map-horizontal.gamipress-progress-map-top .gamipress-progress-map-item  {
+    padding-top: 3rem;
+    align-items: flex-start;
+}
+
+.gamipress-progress-map-horizontal.gamipress-progress-map-center .gamipress-progress-map-item {
+    align-items: flex-end;
+    align-self: flex-start;
+    flex: 1 0 auto;
+    white-space: normal;
+}
+
+.gamipress-progress-map-horizontal.gamipress-progress-map-center .gamipress-progress-map-item .gamipress-progress-map-item-content {
+    padding-bottom: 2rem;
+}
+
+.gamipress-progress-map-horizontal.gamipress-progress-map-center .gamipress-progress-map-item:nth-child(2n) {
+    align-items: flex-start;
+    align-self: flex-start;
+}
+
+.gamipress-progress-map-horizontal.gamipress-progress-map-center .gamipress-progress-map-item:nth-child(2n) .gamipress-progress-map-item-content {
+    padding-top: 2rem;
+    padding-bottom: 0;
+}
+
+.gamipress-progress-map-horizontal.gamipress-progress-map-bottom .gamipress-progress-map-item {
+    align-items: flex-end;
+    padding-bottom: 3rem;
+}
+
+/* Progress map items mark */
+.gamipress-progress-map-horizontal .gamipress-progress-map-item .gamipress-progress-map-mark {
+
+}
+
+/* Progress map items mark position */
+.gamipress-progress-map-horizontal.gamipress-progress-map-top .gamipress-progress-map-item .gamipress-progress-map-mark {
+    top: -2px;
+    margin-top: 1rem;
+}
+
+.gamipress-progress-map-horizontal.gamipress-progress-map-center .gamipress-progress-map-item .gamipress-progress-map-mark {
+    bottom: -20px;
+}
+
+.gamipress-progress-map-horizontal.gamipress-progress-map-center .gamipress-progress-map-item:nth-child(2n) .gamipress-progress-map-mark {
+    top: -20px;
+}
+
+.gamipress-progress-map-horizontal.gamipress-progress-map-bottom .gamipress-progress-map-item .gamipress-progress-map-mark {
+    bottom: 0px;
+    margin-bottom: 1rem;
+}
+
+/* ---------------------------------
+    VERTICAL
+   --------------------------------- */
+.gamipress-progress-map-vertical {
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+}
+
+/* Progress map bars */
+.gamipress-progress-map-vertical .gamipress-progress-map-bar,
+.gamipress-progress-map-vertical .gamipress-progress-map-completed-bar {
+    width: 6px;
+    top: 0;
+    bottom: 0;
+}
+
+/* Progress map bars position */
+.gamipress-progress-map-vertical.gamipress-progress-map-left .gamipress-progress-map-bar,
+.gamipress-progress-map-vertical.gamipress-progress-map-left .gamipress-progress-map-completed-bar  {
+    left: 1rem;
+}
+
+.gamipress-progress-map-vertical.gamipress-progress-map-center .gamipress-progress-map-bar,
+.gamipress-progress-map-vertical.gamipress-progress-map-center .gamipress-progress-map-completed-bar  {
+    left: 50%;
+    margin-left: -3px;
+}
+
+.gamipress-progress-map-vertical.gamipress-progress-map-right .gamipress-progress-map-bar,
+.gamipress-progress-map-vertical.gamipress-progress-map-right .gamipress-progress-map-completed-bar  {
+    right: 1rem;
+}
+
+/* Progress map items */
+.gamipress-progress-map-vertical .gamipress-progress-map-item {
+    width: 100%;
+}
+
+/* Progress map items position */
+.gamipress-progress-map-vertical.gamipress-progress-map-left .gamipress-progress-map-item  {
+    padding-left: 2rem;
+}
+
+.gamipress-progress-map-vertical.gamipress-progress-map-center .gamipress-progress-map-item {
+    width: 50%;
+}
+
+.gamipress-progress-map-vertical.gamipress-progress-map-center .gamipress-progress-map-item .gamipress-progress-map-item-content {
+    padding-right: 2rem;
+}
+
+.gamipress-progress-map-vertical.gamipress-progress-map-center .gamipress-progress-map-item:nth-child(2n) {
+    left: 50%;
+}
+
+.gamipress-progress-map-vertical.gamipress-progress-map-center .gamipress-progress-map-item:nth-child(2n) .gamipress-progress-map-item-content {
+    padding-left: 2rem;
+    padding-right: 0;
+}
+
+.gamipress-progress-map-vertical.gamipress-progress-map-right .gamipress-progress-map-item .gamipress-progress-map-item-content {
+    padding-right: 2rem;
+}
+
+/* Progress map items mark */
+.gamipress-progress-map-vertical .gamipress-progress-map-item .gamipress-progress-map-mark {
+    top: 20px;
+}
+
+/* Progress map items mark position */
+.gamipress-progress-map-vertical.gamipress-progress-map-left .gamipress-progress-map-item .gamipress-progress-map-mark  {
+    left: -2px;
+}
+
+.gamipress-progress-map-vertical.gamipress-progress-map-center .gamipress-progress-map-item .gamipress-progress-map-mark  {
+    right: -20px;
+}
+
+.gamipress-progress-map-vertical.gamipress-progress-map-center .gamipress-progress-map-item:nth-child(2n) .gamipress-progress-map-mark {
+    left: -20px;
+}
+
+.gamipress-progress-map-vertical.gamipress-progress-map-right .gamipress-progress-map-item .gamipress-progress-map-mark  {
+    right: -2px;
+}

@@ -1,0 +1,71 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GamiPress LearnDash Points Per Quiz Score\n"
+"Report-Msgid-Bugs-To: https://gamipress.com/\n"
+"POT-Creation-Date: 2022-04-22 10:49+0200\n"
+"PO-Revision-Date: 2017-MO-DA HO:MI+ZONE\n"
+"Last-Translator: GamiPress (https://gamipress.com/)\n"
+"Language-Team: GamiPress <contact@gamipress.com>\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 2.4.3\n"
+"X-Poedit-KeywordsList: __;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;_n_noop:1,2;_nx_noop:1,2,3c;esc_attr__;esc_html__;esc_attr_e;esc_html_e;esc_attr_x:1,2c;esc_html_x:1,2c\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Basepath: ..\n"
+"X-Textdomain-Support: yes\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: libraries\n"
+
+#: gamipress-h5p-points-per-score.php:139
+#, php-format
+msgid "GamiPress - H5P Points Per Score requires %s and %s in order to work. Please install and activate it."
+msgstr ""
+
+#: includes/admin.php:23
+msgid "Points per H5P score"
+msgstr ""
+
+#: includes/admin.php:27
+msgid "Award points to users per H5P score?"
+msgstr ""
+
+#: includes/admin.php:33
+msgid "Percent to award"
+msgstr ""
+
+#: includes/admin.php:34
+msgid "Set the amount's percent to award."
+msgstr ""
+
+#: includes/admin.php:35
+msgid "A 100% will award the same user score as points (e.g. score of 40 = 40 points)."
+msgstr ""
+
+#: includes/admin.php:36
+msgid "A 200% will award the double of the user score as points (e.g. score of 40 = 80 points)."
+msgstr ""
+
+#: includes/admin.php:37
+msgid "A 50% will award the half of the user score as points (e.g. score of 40 = 20 points)."
+msgstr ""
+
+#: includes/admin.php:46
+msgid "Award only one time"
+msgstr ""
+
+#: includes/admin.php:47
+msgid "Award the points only on first attempt. "
+msgstr ""
+
+#: includes/admin.php:69
+msgid "H5P Points Per Score"
+msgstr ""
+
+#: includes/filters.php:90
+#, php-format
+msgid "%s for complete the content \"%s\" with a score of %s"
+msgstr ""

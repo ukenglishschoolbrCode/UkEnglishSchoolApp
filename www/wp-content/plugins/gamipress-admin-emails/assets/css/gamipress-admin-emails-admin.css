@@ -1,0 +1,91 @@
+/* Admin Email Edit Screen */
+
+/* Make title appear like WordPress title */
+#gamipress-admin-email-title.postbox {
+    border: 0;
+    box-shadow: none;
+    background: transparent;
+}
+
+#gamipress-admin-email-title .handlediv,
+#gamipress-admin-email-title .hndle,
+#gamipress-admin-email-title .cmb-th {
+    display: none;
+}
+
+#gamipress-admin-email-title .inside {
+    padding: 0;
+    margin: 0;
+}
+
+#gamipress-admin-email-title .cmb-td {
+    width: 100%;
+    max-width: 100% !important;
+    padding: 0;
+}
+
+#gamipress-admin-email-title .cmb-td input {
+    padding: 3px 8px;
+    font-size: 1.7em;
+    line-height: 100%;
+    height: 1.7em;
+    width: 100%;
+    outline: none;
+    margin: 0 0 3px;
+    background-color: #fff;
+}
+
+/* Editor */
+#gamipress-admin-email-email .cmb-td,
+#gamipress-admin-email-email .cmb2-id-subject .cmb-td input {
+    width: 100%;
+}
+
+#gamipress-admin-email-email .cmb-td {
+    padding: 0;
+}
+
+#wp-content-editor-tools {
+    padding-top: 0;
+    background-color: transparent;
+}
+
+/* Select2 */
+#gamipress-admin-email-condition .gamipress-post-selector .cmb-td {
+    min-width: 225px;
+}
+
+/* Side boxes */
+#post-body.columns-2 #postbox-container-1 #gamipress-admin-email-details input {
+    width: 100%;
+}
+
+#post-body.columns-2 #postbox-container-1 #gamipress-admin-email-details .cmb-th,
+#post-body.columns-2 #postbox-container-1 #gamipress-admin-email-details .cmb-td {
+    padding: 0;
+}
+
+#side-sortables .cmb-td:not(.cmb-remove-row), #side-sortables .cmb-th,
+#side-sortables .cmb-td:not(.cmb-remove-row), #side-sortables .cmb-th + .cmb-td {
+    padding: 0;
+}
+
+/* Actions */
+#misc-publishing-actions {
+    padding: 0;
+}
+
+.admin-email-action .dashicons {
+    color: #82878c;
+    padding-right: 3px;
+}
+
+/* Pattern tag list */
+.gamipress-admin-emails-pattern-tags-list li strong {
+    color: #444;
+}
+
+.gamipress-admin-emails-pattern-tags-list li span {
+    color: #444;
+    font-style: normal;
+}
