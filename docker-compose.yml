@@ -1,9 +1,35 @@
 version: '3.1'
 services:
-  php:
-    build: .
+  phpmyadmin:
+    image: phpmyadmin
+    restart: always
     ports:
-    - "80:80"
-    - "443:443"
+      - '8077:80'
+    environment:
+        - PMA_HOST=db
+        - UPLOAD_LIMIT=300M
+    depends_on:
+      - db
+
+  db:
+    image: mysql:latest
+    ports:
+      - '5506:3306'
+    restart: unless-stopped
+    environment:
+      MYSQL_USER: ukinglesonline2
+      MYSQL_PASSWORD: "3UewaJw!$LzDfXR9@"
+      MYSQL_ROOT_PASSWORD: 123456
+   
+  wordpress:
+    image: wordpress
+    restart: always
+    ports:
+      - 8080:80
+    environment:
+      WORDPRESS_DB_HOST: db
+      WORDPRESS_DB_USER: ukinglesonline2
+      WORDPRESS_DB_PASSWORD: "3UewaJw!$LzDfXR9@"
+      WORDPRESS_DB_NAME: ukinglesonline2
     volumes:
-    - ./www:/var/www/html
+      - /www:/var/www/html
