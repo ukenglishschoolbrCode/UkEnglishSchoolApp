@@ -18,7 +18,7 @@ services:
     restart: unless-stopped
     environment:
       MYSQL_USER: ukinglesonline2
-      MYSQL_PASSWORD: "3UewaJw!$LzDfXR9@"
+      MYSQL_PASSWORD: "teste123"
       MYSQL_ROOT_PASSWORD: 123456
    
   wordpress:
@@ -27,9 +27,9 @@ services:
     ports:
       - 8080:80
     environment:
-      WORDPRESS_DB_HOST: db
+      WORDPRESS_DB_HOST: db:3306
       WORDPRESS_DB_USER: ukinglesonline2
-      WORDPRESS_DB_PASSWORD: "3UewaJw!$LzDfXR9@"
+      WORDPRESS_DB_PASSWORD: "teste123"
       WORDPRESS_DB_NAME: ukinglesonline2
     volumes:
       - /www:/var/www/html

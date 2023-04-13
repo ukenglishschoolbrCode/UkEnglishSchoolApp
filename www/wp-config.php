@@ -55,7 +55,8 @@ define( 'DB_USER', 'ukinglesonline2' );
 
 /** Database password */
 
-define( 'DB_PASSWORD', '3UewaJw!$LzDfXR9@' );
+// define( 'DB_PASSWORD', '3UewaJw!$LzDfXR9@' );
+define( 'DB_PASSWORD', 'teste123' );
 
 
 
