@@ -155,7 +155,7 @@ $table_prefix = 'ufzwq_';
 
  */
 
-define( 'WP_DEBUG', true );
+define( 'WP_DEBUG', false );
 define('WP_POST_REVISIONS', 2);
 
 
