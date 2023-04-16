@@ -55,13 +55,15 @@ define( 'DB_USER', 'ukinglesonline2' );
 
 /** Database password */
 
-define( 'DB_PASSWORD', '3UewaJw!$LzDfXR9@' );
+// define( 'DB_PASSWORD', '3UewaJw!$LzDfXR9@' );
+define( 'DB_PASSWORD', 'teste123' );
 
 
 
 /** Database hostname */
 
-define( 'DB_HOST', 'localhost' );
+// define( 'DB_HOST', 'localhost' );
+define( 'DB_HOST', 'db:3306' );
 
 
 
@@ -153,7 +155,7 @@ $table_prefix = 'ufzwq_';
 
  */
 
-define( 'WP_DEBUG', false );
+define( 'WP_DEBUG', true );
 define('WP_POST_REVISIONS', 2);
 
 
