@@ -27,9 +27,7 @@ services:
       - wpsite
 
   wordpress:
-    build: .
-    #dockerfile: dockerfile
-    #image: wordpress:latest
+    image: wordpress:latest
     restart: always
     ports:
       - 8080:80
@@ -39,8 +37,10 @@ services:
       WORDPRESS_DB_PASSWORD: "teste123"
       WORDPRESS_DB_NAME: ukinglesonline2
       WORDPRESS_TABLE_PREFIX: ufzwq_
-    #volumes:
-     # - /www:/var/www/html
+    volumes:
+    - type: bind
+      source: ./www
+      target: /var/www/html
     depends_on:
       - db
     networks:
